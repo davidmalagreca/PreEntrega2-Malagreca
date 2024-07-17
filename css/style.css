@@ -118,15 +118,6 @@ body{
     font-weight:lighter
 }
 
-.span{
-    color: blue;
-}
-.sectionfooter{
-    background-color: black;
-    color: wheat;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
 .sectioninfo{
     display: flex;
     justify-content: center;
@@ -179,4 +170,36 @@ body{
     width: 100px;
     height: 150px;
     display: block;
+}
+footer{
+    margin-top: 80px;
+    background-color: black;
+}
+
+.sectionfooter{
+    display: flex;
+    background-color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-size: medium;
+    font-weight: bolder;
+    background-color: black;
+    color: wheat;
+    gap: 700px;
+}
+
+.footer1{
+    margin: 50px;
+    margin-left: 10%;
+}
+.footer2{
+    margin: 50px;
+    margin-left: 10%;
+}
+.footerlogo{
+    display: flex;
+    margin-left: 50px;
+    background-color: black;  
+}
+.footerimg{
+    
 }
