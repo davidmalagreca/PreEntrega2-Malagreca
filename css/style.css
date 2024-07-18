@@ -17,11 +17,21 @@ body{
     text-align: center;
     font-size: small;
     color: white;
-    }
+}
+.navbar{
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .logobong{
     display: flex;
     justify-content: center;
-
+    width: 150px;
+    height: 100px;
+}
+.logobong1{
+    display: flex;
+    justify-content: center;
 }
 .centro{
     width: 100%;
