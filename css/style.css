@@ -188,10 +188,12 @@ footer{
 }
 
 .footer1{
+    list-style: none;
     margin: 50px;
     margin-left: 10%;
 }
 .footer2{
+    list-style: none;
     margin: 50px;
     margin-left: 10%;
 }
@@ -201,5 +203,6 @@ footer{
     background-color: black;  
 }
 .footerimg{
-    
+    display: flex;
+    justify-content:flex-start;
 }
