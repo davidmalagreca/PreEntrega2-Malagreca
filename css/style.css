@@ -9,8 +9,19 @@ body{
     padding: 0;
     overflow-x: hidden;
 }
-.container, .section, .sectionfooter, .centro {
-    overflow: hidden;
+
+
+header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+main{
+    padding: 15%;
 }
 
 .h1{
@@ -40,15 +51,11 @@ body{
     justify-content: center;
     margin: 0 auto;
 }
-.section{
-    justify-items: center;
-}
 
 .center{
     display: flex;
     justify-content: center;
     background-color: lightgray;
-    position: sticky;
 }
 .container{
         font-weight: bold;
@@ -90,22 +97,20 @@ body{
     justify-content: center;
     gap: 3.125rem;
 }
-.card{
-    width: 100%;
-    height: 100%;
-    background-color: lightgray;
+.prenda-img{
+    border-radius: 20px;
 }
 
-.grilla1{
+.grilla{
     display: grid;
-    grid-template-columns: 450px 450px;
+    grid-template-columns: 400px 400px 400px;
     justify-content: center;
     gap: 3.125rem;
 }
-.card1{
+.card{
     width: 100%;
     height: 100%;
-    background-color: lightgray;
+    background-color: white;
 }
 
 
@@ -124,8 +129,8 @@ body{
     justify-content:space-between;
 }
 .prenda-info{
-    background-color: lightgray;
-    font-weight:lighter
+    background-color: rgb(255, 255, 255);
+    font-weight:lighter;
 }
 
 .sectioninfo{
@@ -183,37 +188,45 @@ body{
     display: block;
 }
 footer{
-    margin-top: 80px;
     background-color: black;
 }
 
 .sectionfooter{
     display: flex;
+    justify-content: center;
     background-color: black;
     font-family:Georgia, 'Times New Roman', Times, serif
     font-size: medium;
     font-weight: bolder;
-    background-color: black;
-    color: wheat;
-    gap: 700px;
-}
+    gap: 150px;
+    width: 100%;
+    height: 70%;
+}   
+
 
 .footer1{
     list-style: none;
     margin: 50px;
+    text-decoration: none;
     margin-left: 10%;
+    color: white;
 }
 .footer2{
     list-style: none;
     margin: 50px;
     margin-left: 10%;
+    color: white;
 }
-.footerlogo{
-    display: flex;
-    margin-left: 50px;
-    background-color: black;  
+.footer3{
+    list-style: none;
+    margin: 50px;
+    margin-left: 10%;
+    color: white;
 }
+
 .footerimg{
     display: flex;
-    justify-content:flex-start;
+    margin-left: 15%;
+    padding: 10px;
+    padding-top: 50px;
 }
