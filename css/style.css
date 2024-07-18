@@ -24,8 +24,8 @@ body{
 
 }
 .centro{
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -136,25 +136,26 @@ body{
 
 .button{
     display: grid;
-    grid-template-columns: 865px 865px ;
-    grid-template-rows: auto 550px ;
-    column-gap: 16px;
-    row-gap: .625rem;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 350px 350px;
+    column-gap: 70px;
     justify-content: center;
 }
 
 .img-boton{
     display: grid;
     border-radius: 20px;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
     cursor: pointer;
     background: none;
     border: none;
     padding: 0;
 }
 .boton{
-    border-radius: 25px;
+    margin-top: 80px;
+    border-radius: 23px;
+    border: none;
 }
 
 .texto-somos1{
