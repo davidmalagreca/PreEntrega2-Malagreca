@@ -131,6 +131,22 @@ main{
 .prenda-info{
     background-color: rgb(255, 255, 255);
     font-weight:lighter;
+    margin-left: 30px;
+}
+.articulo{
+    font-weight:bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin: 10px;
+    font-family:sans-serif;
+}
+
+.prenda-info ul li{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 4%;
 }
 
 .sectioninfo{
@@ -138,6 +154,9 @@ main{
     justify-content: center;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+.span{
+    font-weight: lighter;
 }
 
 .sectioninfotext{
