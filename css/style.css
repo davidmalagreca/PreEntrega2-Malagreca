@@ -37,8 +37,7 @@ main{
 .logobong{
     display: flex;
     justify-content: center;
-    width: 150px;
-    height: 100px;
+
 }
 .logobong1{
     display: flex;
