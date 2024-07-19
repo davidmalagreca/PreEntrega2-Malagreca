@@ -21,7 +21,7 @@ header{
 }
 
 main{
-    padding: 15%;
+    margin-top: 20%;
 }
 
 .h1{
@@ -152,14 +152,20 @@ main{
     display: flex;
     justify-content: center;
     margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .sectioninfotext{
     width: 100%;    
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
 }
+.sectioninfotext a{
+    margin-top: 25px;
+}
+.devoluciones p{
+    font-weight: bolder;
+}
+
 
 .span{
     font-weight: lighter;
@@ -171,6 +177,7 @@ main{
     grid-template-rows: 350px 350px;
     column-gap: 70px;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .img-boton{
