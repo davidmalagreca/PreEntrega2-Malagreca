@@ -240,7 +240,14 @@ footer {
         padding: 0;
         box-sizing: border-box;
     }
- 
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    .logobong{
+        display: flex;
+        justify-content: center;
+    }
     .buscar {
        height: auto;
        width: 100px;
@@ -262,6 +269,7 @@ footer {
         justify-content: stretch;
         justify-content: center;
         width: 480px;
+        height: auto;
         overflow: hidden;
     }
     .button {
