@@ -266,6 +266,9 @@ footer {
          flex-direction: column;
 
     }
+    .centro{
+        max-width: 100%;
+    }
     .button {
         display: flex;
         flex-direction: column;
