@@ -1,17 +1,17 @@
-*{
+* {
     maring: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
 
 
-header{
+header {
     position: fixed;
     background-color: white;
     width: 100%;
@@ -20,30 +20,33 @@ header{
     z-index: 1000;
 }
 
-main{
+main {
     margin-top: 20%;
 }
 
-.h1{
+.h1 {
     text-align: center;
     font-size: small;
     color: white;
 }
-.navbar{
+
+.navbar {
     font-size: small;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.logobong{
+.logobong {
     display: flex;
     justify-content: center;
 
 }
-.logobong1{
+
+.logobong1 {
     display: flex;
     justify-content: center;
 }
-.centro{
+
+.centro {
     width: 100%;
     height: 100%;
     display: flex;
@@ -51,74 +54,71 @@ main{
     margin: 0 auto;
 }
 
-.center{
+.center {
     display: flex;
     justify-content: center;
     background-color: lightgray;
 }
-.container{
-        font-weight: bold;
-        display: flex;
-        justify-content: end;
-    }
 
-.section2{
+.container {
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+.section2 {
     display: flex;
     align-self: center;
 }
-.container nav{
+
+.container nav {
     display: flex;
     column-gap: 1rem;
     justify-items: end;
 }
 
-.h1portada{
+.h1portada {
     width: auto;
     height: auto;
     display: flex;
     align-content: center;
 }
-.log4{
+
+.log4 {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-content: flex-start;
     flex-wrap: wrap;
 }
 
 
-.banner{
+.banner {
     width: max-content;
 }
 
-.grilla{
+.grilla {
     display: grid;
     grid-template-columns: 450px 450px;
     justify-content: center;
     gap: 3.125rem;
 }
-.prenda-img{
+
+.prenda-img {
     border-radius: 20px;
     width: 100%;
     height: 100%;
     transition: 0.5s;
     object-fit: cover;
 }
-.div1 .prenda-img:hover{
-    transform: scale(1.3125rem);
-}
-.div1{
-    width: 200px;
-    height: 150px;
-    overflow: hidden;
-    margin: 20px;
-}
-.grilla{
+
+.grilla {
     display: grid;
     grid-template-columns: 400px 400px 400px;
     justify-content: center;
     gap: 3.125rem;
 }
-.card{
+
+.card {
     width: 100%;
     height: 100%;
     background-color: white;
@@ -126,34 +126,37 @@ main{
 
 
 
-.boxtext{
+.boxtext {
     font-size: 30px;
     padding: .3125rem;
     margin: 5px;
     font-weight: bolder;
 }
-.prendas{
+
+.prendas {
     width: auto;
     height: auto;
     display: flex;
     object-fit: cover;
     flex-direction: column;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.prenda-info{
+
+.prenda-info {
     background-color: rgb(255, 255, 255);
-    font-weight:lighter;
+    font-weight: lighter;
     margin-left: 30px;
 }
-.articulo{
-    font-weight:bold;
+
+.articulo {
+    font-weight: bold;
     font-size: 30px;
     margin-bottom: 0px;
     margin: 10px;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
-.prenda-info ul li{
+.prenda-info ul li {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     list-style: none;
@@ -161,30 +164,32 @@ main{
     margin-left: 4%;
 }
 
-.sectioninfo{
+.sectioninfo {
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
 
-.sectioninfotext{
-    width: 100%;    
+.sectioninfotext {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
-.sectioninfotext a{
+
+.sectioninfotext a {
     margin-top: 25px;
 }
-.devoluciones p{
+
+.devoluciones p {
     font-weight: bolder;
 }
 
 
-.span{
+.span {
     font-weight: lighter;
 }
 
-.button{
+.button {
     display: grid;
     grid-template-columns: 500px 500px;
     grid-template-rows: 350px 350px;
@@ -193,7 +198,7 @@ main{
     margin-bottom: 80px;
 }
 
-.img-boton{
+.img-boton {
     display: grid;
     border-radius: 20px;
     width: 100%;
@@ -203,19 +208,21 @@ main{
     border: none;
     padding: 0;
 }
-.boton{
+
+.boton {
     margin-top: 80px;
     border-radius: 23px;
     border: none;
 }
 
-.img-somos{
+.img-somos {
     display: flex;
     justify-content: center;
     height: 120px;
 
 }
-.quienessomos p{
+
+.quienessomos p {
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -223,7 +230,8 @@ main{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
 }
-.texto-somos{
+
+.texto-somos {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -232,46 +240,96 @@ main{
     font-size: x-large;
 }
 
-footer{
+footer {
     background-color: black;
 }
 
-.sectionfooter{
+.sectionfooter {
     display: flex;
     justify-content: center;
     background-color: black;
-    font-family:Georgia, 'Times New Roman', Times, serif
-    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif font-size: medium;
     font-weight: bolder;
     gap: 150px;
     width: 100%;
     height: 70%;
-}   
+}
 
 
-.footer1{
+.footer1 {
     list-style: none;
     margin: 50px;
     text-decoration: none;
     margin-left: 10%;
     color: white;
 }
-.footer2{
-    list-style: none;
-    margin: 50px;
-    margin-left: 10%;
-    color: white;
-}
-.footer3{
+
+.footer2 {
     list-style: none;
     margin: 50px;
     margin-left: 10%;
     color: white;
 }
 
-.footerimg{
+.footer3 {
+    list-style: none;
+    margin: 50px;
+    margin-left: 10%;
+    color: white;
+}
+
+.footerimg {
     display: flex;
     margin-left: 15%;
     padding: 10px;
     padding-top: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .center{
+        display: flex;
+        justify-content: start;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .center > *{
+        margin-left: 120px;
+    }
+    .logobong1{
+        display: flex;
+        justify-content: start;
+        max-width: 100%;
+        margin-left: 110px;
+        overflow: hidden;
+    }
+    .container{
+        display: flex;
+        justify-content: start;
+        margin-right: 160px;
+        max-width: auto;
+        max-height: 100%;
+        overflow: hidden;
+    }
+    .navbar{
+        justify-content: stretch;
+        flex-direction: column;
+        overflow: hidden;
+     }
+     .button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+     }
+     .boton{
+        display: flex;
+        justify-content: center;
+     }
+     .sectionfooter{
+        justify-content: start;
+        flex-direction: column;
+        gap: 0px;
+
+     }
+
 }
