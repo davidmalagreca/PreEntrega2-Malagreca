@@ -234,7 +234,7 @@ footer {
     padding-top: 50px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
     .center {
         display: flex;
         justify-content: center;
@@ -268,11 +268,13 @@ footer {
         justify-content: stretch;
         justify-content: center;
         width: 480px;
+        overflow: hidden;
     }
     .button {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        overflow: hidden;
     }
     .boton {
         display: flex;
