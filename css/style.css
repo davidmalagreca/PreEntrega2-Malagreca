@@ -267,7 +267,10 @@ footer {
 
     }
     .centro{
-        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        width: 480px;
+        overflow: hidden;
     }
     .button {
         display: flex;
