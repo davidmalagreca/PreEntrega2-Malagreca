@@ -286,23 +286,33 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    .center{
+    .center {
         display: flex;
         justify-content: start;
         max-width: 100%;
         overflow: hidden;
     }
-    .center > *{
+
+    .center>* {
         margin-left: 120px;
     }
-    .logobong1{
+
+    .buscar {
+        display: flex;
+        margin-left: 190px;
+        height: auto;
+        width: 100px;
+    }
+
+    .logobong1 {
         display: flex;
         justify-content: start;
         max-width: 100%;
         margin-left: 110px;
         overflow: hidden;
     }
-    .container{
+
+    .container {
         display: flex;
         justify-content: start;
         margin-right: 160px;
@@ -310,26 +320,28 @@ footer {
         max-height: 100%;
         overflow: hidden;
     }
-    .navbar{
-        justify-content: stretch;
-        flex-direction: column;
-        overflow: hidden;
-     }
-     .button{
+
+
+    .navbar {
+         flex-direction: column;
+
+    }
+
+    .button {
         display: flex;
         flex-direction: column;
         justify-content: center;
         overflow: hidden;
-     }
-     .boton{
+    }
+
+    .boton {
         display: flex;
         justify-content: center;
-     }
-     .sectionfooter{
+    }
+
+    .sectionfooter {
         justify-content: start;
         flex-direction: column;
         gap: 0px;
-
-     }
-
+    }     
 }
