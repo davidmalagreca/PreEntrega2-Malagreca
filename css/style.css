@@ -1,5 +1,5 @@
 * {
-    maring: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -235,23 +235,17 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
-    .center {
-        display: flex;
-        justify-content: center;
-        max-width: 100%;
-        overflow: hidden;
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-  
+ 
     .buscar {
        height: auto;
        width: 100px;
     }
-    .logobong1 {
-        display: flex;
-        justify-content: center;
-        max-width: 100%;
-        overflow: hidden;
-    }
+
     .container {
         display: flex;
         justify-content: start;
