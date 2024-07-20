@@ -237,28 +237,24 @@ footer {
 @media screen and (max-width: 480px) {
     .center {
         display: flex;
-        justify-content: start;
+        justify-content: center;
         max-width: 100%;
         overflow: hidden;
     }
-    .center>* {
-        margin-left: 120px;
-    }
+  
     .buscar {
        height: auto;
        width: 100px;
     }
     .logobong1 {
         display: flex;
-        justify-content: start;
+        justify-content: center;
         max-width: 100%;
-        margin-left: 110px;
         overflow: hidden;
     }
     .container {
         display: flex;
         justify-content: start;
-        margin-right: 160px;
         max-width: auto;
         max-height: 100%;
         overflow: hidden;
@@ -293,11 +289,10 @@ footer {
         display: flex;
         justify-content: center;
         max-width: max-content;
-        margin-left: 120px;
     }
     .sectioninfotext{
         display: grid;
-
+        justify-content: center;
     }
     .sectioninfotext a{
         display: flex;
