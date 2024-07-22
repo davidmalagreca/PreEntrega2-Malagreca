@@ -284,6 +284,10 @@ footer {
         display: flex;
         justify-content: center;
     }
+    .footerimg{
+        display: flex;
+        justify-content: center;
+    }
     .sectionfooter {
         justify-content: start;
         flex-direction: column;
@@ -305,5 +309,11 @@ footer {
         display: flex;
         text-align: center;
     }
+    .grilla{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+        max-width: max-content;
+        margin-top: 180px;
+    }
 }
-
