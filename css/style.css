@@ -64,6 +64,11 @@ main {
     column-gap: 1rem;
     justify-items: end;
 }
+.container nav a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
 .h1portada {
     width: auto;
     height: auto;
@@ -143,6 +148,9 @@ main {
 }
 .sectioninfotext a {
     margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
 }
 .devoluciones p {
     font-weight: bolder;
@@ -197,6 +205,10 @@ main {
 }
 footer {
     background-color: black;
+}
+.sectionfooter ul li a{
+    text-decoration: none;
+    color: white;
 }
 .sectionfooter {
     display: flex;
