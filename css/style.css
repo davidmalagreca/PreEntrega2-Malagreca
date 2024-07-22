@@ -234,11 +234,12 @@ footer {
     padding-top: 50px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        justify-content: center;
     }
     .center{
         display: flex;
@@ -268,7 +269,8 @@ footer {
         display: flex;
         justify-content: stretch;
         justify-content: center;
-        width: 480px;
+        width: 375px;
+        height: 667px;
         height: auto;
         overflow: hidden;
     }
@@ -291,19 +293,17 @@ footer {
         display: flex;
         justify-content: center;
         max-width: max-content;
+        width: 30%;
+        margin-left: 35%;
     }
     .sectioninfotext{
-        display: grid;
+        display: flex;
         justify-content: center;
+        flex-direction: column;
     }
     .sectioninfotext a{
         display: flex;
-        justify-content: center;
-    }
-    .sectioninfotext img{
-        display: flex;
-        justify-content: center;
-        margin-left: 40%;
+        text-align: center;
     }
 }
 
