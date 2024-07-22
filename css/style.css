@@ -18,6 +18,7 @@ header {
 }
 main {
     margin-top: 20%;
+    margin-bottom: 5%;
 }
 .h1 {
     text-align: center;
@@ -94,7 +95,7 @@ main {
 }
 .grilla {
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: 300px 300px 300px;
     justify-content: center;
     gap: 3.125rem;
 }
@@ -119,22 +120,25 @@ main {
 }
 .prenda-info {
     background-color: rgb(255, 255, 255);
-    font-weight: lighter;
-    margin-left: 30px;
+    font-size: 13px;
 }
 .articulo {
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 0px;
     margin: 10px;
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .prenda-info ul li {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     list-style: none;
-    text-decoration: none;
     margin-left: 4%;
+}
+.prenda-info ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .sectioninfo {
     display: flex;
