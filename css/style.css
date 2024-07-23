@@ -43,7 +43,6 @@ main {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: stretch;
     justify-content: center;
     margin: 0 auto;
 }
@@ -251,6 +250,132 @@ footer {
     padding-top: 50px;
 }
 
+@media screen and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    .logobong{
+        display: flex;
+        justify-content: center;
+    }
+    .buscar {
+       height: auto;
+       width: 100px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: start;
+        max-width: auto;
+        max-height: 100%;
+        overflow: hidden;
+    }
+    .navbar {
+         flex-direction: column;
+
+    }
+    .centro {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .boton {
+        display: flex;
+        justify-content: center;
+    }
+    .footerimg{
+        display: flex;
+        justify-content: center;
+    }
+    .sectionfooter {
+        justify-content: start;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .sectioninfo{
+        display: flex;
+        justify-content: center;
+        max-width: max-content;
+        width: 30%;
+        margin-left: 35%;
+    }
+    .sectioninfotext{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sectioninfotext a{
+        display: flex;
+        text-align: center;
+    }
+    .grilla{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+        max-width: max-content;
+        margin-top: 180px;
+    }
+
+    footer {
+        background-color: black;
+    }
+    .sectionfooter ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .sectionfooter {
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif font-size: medium;
+        font-weight: bolder;
+        gap: 150px;
+        width: 100%;
+        height: 70%;
+    }
+    .footer1 {
+        list-style: none;
+        margin: 50px;
+        text-decoration: none;
+        margin-left: 10%;
+        color: white;
+    }
+    .footer2 {
+        list-style: none;
+        margin: 50px;
+        margin-left: 10%;
+        color: white;
+    }
+    .footer3 {
+        list-style: none;
+        margin: 50px;
+        margin-left: 10%;
+        color: white;
+    }
+    .footerimg {
+        display: flex;
+        margin-left: 15%;
+        padding: 10px;
+        padding-top: 50px;
+    }
+}
+
+
 @media screen and (max-width: 480px) {
     *{
         margin: 0;
@@ -284,10 +409,8 @@ footer {
     }
     .centro{
         display: flex;
-        justify-content: stretch;
         justify-content: center;
-        width: 375px;
-        height: 667px;
+        width: 480px;
         height: auto;
         overflow: hidden;
     }
