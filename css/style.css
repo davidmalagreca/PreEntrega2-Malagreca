@@ -423,7 +423,7 @@ footer {
     }
     .button .boton{
         display: grid;
-        grid-template-columns: 500px;
+        grid-template-columns: auto;
         column-gap: 1px;
         margin-bottom: 40px;
         background-color: rgba(255, 255, 255, 0);
