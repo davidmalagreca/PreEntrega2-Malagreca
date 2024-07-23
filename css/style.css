@@ -249,6 +249,11 @@ footer {
     padding: 10px;
     padding-top: 50px;
 }
+.nav-item {
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+}
 
 @media screen and (max-width: 768px) {
     *{
