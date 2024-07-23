@@ -162,6 +162,7 @@ main {
     grid-template-rows: 350px 350px;
     column-gap: 70px;
     justify-content: center;
+    width: auto;
     margin-bottom: 80px;
 }
 
@@ -281,6 +282,7 @@ footer {
         margin: auto;
         display: flex;
         justify-content: center;
+        overflow: hidden;
     }
     .button .boton{
         display: grid;
@@ -411,6 +413,21 @@ footer {
     .navbar {
          flex-direction: column;
 
+    }
+    .centro {
+        width: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .button .boton{
+        display: grid;
+        grid-template-columns: 500px;
+        column-gap: 1px;
+        margin-bottom: 40px;
+        background-color: rgba(255, 255, 255, 0);
+        width: auto;
     }
     .button {
         display: flex;
