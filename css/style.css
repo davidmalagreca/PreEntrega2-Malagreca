@@ -26,10 +26,6 @@ main {
     color: white;
     margin-top: 7px;
 }
-.navbar {
-    font-size: small;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 .logobong {
     display: flex;
     justify-content: center;
@@ -269,7 +265,6 @@ footer {
        height: auto;
        width: 100px;
     }
-
     .container {
         display: flex;
         justify-content: start;
@@ -277,11 +272,6 @@ footer {
         max-height: 100%;
         overflow: hidden;
     }
-    .navbar {
-         flex-direction: column;
-
-    }
-  
     .button .boton{
         display: grid;
         grid-template-columns: 500px;
@@ -307,26 +297,26 @@ footer {
         justify-content: start;
         flex-direction: column;
     }
-    .sectioninfo{
+    .centro{
         display: flex;
         justify-content: center;
-        max-width: max-content;
-        width: 20%;
-        margin-left: 35%;
+        height: auto;
     }
     .centro div{
         display: flex;
-        justify-content: center;
-        width: auto;
+        justify-content: start;
     }
+
     .sectioninfotext{
         display: flex;
-        justify-content: center;
-        flex-direction: column;
+        width: max-content;
     }
     .sectioninfotext a{
         display: flex;
         text-align: center;
+    }
+    .sectioninfo div img{
+        width: 100px;
     }
     .grilla{
         display: grid;
@@ -340,8 +330,11 @@ footer {
         color: white;
     }
     footer{
-        width: 768px;
         justify-content: stretch;
+    }
+    .footerimg{
+        display: flex;
+        justify-content: center;
     }
     .sectionfooter {
         display: flex;
@@ -412,10 +405,6 @@ footer {
         max-width: auto;
         max-height: 100%;
         overflow: hidden;
-    }
-    .navbar {
-         flex-direction: column;
-
     }
     .button .boton{
         display: grid;
