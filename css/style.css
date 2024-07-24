@@ -270,11 +270,6 @@ footer {
        height: auto;
        width: 100px;
     }
-    #sectionbotonindex{
-        display: flex; 
-        flex-direction: column;
-        justify-content: center;
-    }
     .container {
         display: flex;
         justify-content: start;
@@ -299,14 +294,15 @@ footer {
     }
     .sectioninfotext{
         display: flex;
-        width: max-content;
+        justify-content:space-evenly ;
+        width: auto;
     }
     .sectioninfotext a{
-        display: flex;
         text-align: center;
     }
     .sectioninfo div img{
-        width: 100px;
+        width: 50px;
+        height: auto;
     }
     .grilla{
         display: grid;
@@ -423,21 +419,16 @@ footer {
         flex-direction: column;
         gap: 0px;
     }
-    .sectioninfo{
-        display: flex;
+    .sectioninfo div img{
         justify-content: center;
+        width: auto;
         max-width: max-content;
-        width: 30%;
         margin-left: 35%;
     }
     .sectioninfotext{
         display: flex;
         justify-content: center;
         flex-direction: column;
-    }
-    .sectioninfotext a{
-        display: flex;
-        text-align: center;
     }
     .grilla{
         display: grid;
