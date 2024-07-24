@@ -45,6 +45,10 @@ main {
     justify-content: center;
     background-color: lightgray;
 }
+.centro div{
+    display: flex;
+    justify-content: center;
+}
 .container {
     font-weight: bold;
     display: flex;
@@ -307,8 +311,13 @@ footer {
         display: flex;
         justify-content: center;
         max-width: max-content;
-        width: 30%;
+        width: 20%;
         margin-left: 35%;
+    }
+    .centro div{
+        display: flex;
+        justify-content: center;
+        width: auto;
     }
     .sectioninfotext{
         display: flex;
@@ -408,7 +417,6 @@ footer {
          flex-direction: column;
 
     }
-
     .button .boton{
         display: grid;
         grid-template-columns: auto;
