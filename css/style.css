@@ -277,13 +277,7 @@ footer {
          flex-direction: column;
 
     }
-    .centro {
-        width: auto;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        overflow: hidden;
-    }
+  
     .button .boton{
         display: grid;
         grid-template-columns: 500px;
@@ -414,13 +408,7 @@ footer {
          flex-direction: column;
 
     }
-    .centro {
-        width: auto;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        overflow: hidden;
-    }
+
     .button .boton{
         display: grid;
         grid-template-columns: auto;
