@@ -184,12 +184,8 @@ main {
 .img-somos {
     display: flex;
     justify-content: center;
-    height: 120px;
-
 }
 .quienessomos p {
-    display: flex;
-    justify-content: center;
     padding-top: 20px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
