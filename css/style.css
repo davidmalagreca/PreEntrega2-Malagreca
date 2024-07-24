@@ -79,7 +79,13 @@ main {
 .banner {
     width: max-content;
 }
-
+#sectionbotonindex{
+    display: grid; 
+    margin: 3%;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    column-gap: 50px;
+}
 .prenda-img {
     border-radius: 20px;
     width: 100%;
@@ -264,6 +270,11 @@ footer {
        height: auto;
        width: 100px;
     }
+    #sectionbotonindex{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+    }
     .container {
         display: flex;
         justify-content: start;
@@ -271,22 +282,12 @@ footer {
         max-height: 100%;
         overflow: hidden;
     }
-    .button .boton{
-        display: grid;
-        grid-template-columns: 500px;
-        column-gap: 1px;
-        margin-bottom: 40px;
-        background-color: rgba(255, 255, 255, 0);
-    }
+    
     .button {
         display: flex;
         flex-direction: column;
         justify-content: center;
         overflow: hidden;
-    }
-    .boton {
-        display: flex;
-        justify-content: center;
     }
     .footerimg{
         display: flex;
