@@ -253,6 +253,9 @@ footer {
         box-sizing: border-box;
         justify-content: center;
     }
+    .centro{
+        margin-top: 80%;
+    }
     .center{
         display: flex;
         justify-content: center;
@@ -297,16 +300,6 @@ footer {
         justify-content: start;
         flex-direction: column;
     }
-    .centro{
-        display: flex;
-        justify-content: center;
-        height: auto;
-    }
-    .centro div{
-        display: flex;
-        justify-content: start;
-    }
-
     .sectioninfotext{
         display: flex;
         width: max-content;
