@@ -438,12 +438,13 @@ footer {
     }
     .sectionfooter{
         margin-right: 10%;
+        gap: 50px;
     }
     .tarjetas-footer{
         column-gap: 5px;
     }
     .tarjetas-footer img{
-        width: 10px;
+        width: 15px;
     }
 }
 
