@@ -263,15 +263,9 @@ footer {
         justify-content: center;
     }
     .centro{
-        width: 150%;
         margin-top: 35%;
     }
-    .centro img{
-        display: flex;
-        justify-content: stretch;
-        margin-right: 370px;
-        width: fit-content;
-    }
+   
     .sectioninfo img{
         width: auto;
         height: auto;
@@ -375,14 +369,10 @@ footer {
        width: 100px;
     }
     .centro{
-        width: 150%;
+        width: auto;
         margin-top: 55%;
     }
-    .centro img{
-        display: flex;
-        justify-content: stretch;
-        margin-right: 250px;
-    }
+ 
     .container {
         display: flex;
         justify-content: start;
