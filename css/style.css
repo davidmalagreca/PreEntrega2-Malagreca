@@ -17,7 +17,7 @@ header {
     z-index: 1000;
 }
 main {
-    margin-top: 20%;
+    margin-top: 18%;
     margin-bottom: 5%;
 }
 .center .h1{
@@ -34,6 +34,7 @@ main {
 .logobong1 {
     display: flex;
     justify-content: center;
+    background-color: black;
 }
 
 .center {
@@ -144,16 +145,17 @@ main {
 .sectioninfo {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .sectioninfotext {
-    width: 100%;
-    display: flex;
+    width: auto;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
     justify-content: center;
 }
 .sectioninfotext a {
-    margin-top: 25px;
     text-decoration: none;
+    text-align:center;
     color: black;
     font-weight: bolder;
 }
@@ -221,21 +223,19 @@ footer {
     font-weight: bolder;
     width: auto;
     height: auto;
+    gap: 100px;
 }
 .footer1 {
     list-style: none;
     text-decoration: none;
-    margin-left: 10%;
     color: white;
 }
 .footer2 {
     list-style: none;
-    margin-left: 10%;
     color: white;
 }
 .footer3 {
     list-style: none;
-    margin-left: 10%;
     color: white;
 }
 .footerimg {
@@ -246,12 +246,12 @@ footer {
 }
 .tarjetas-footer{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     padding-bottom: 25px;
     gap: 30px;
 }
 .tarjetas-footer img{
-    width: 45px;
+    width: 30px;
     height: auto;
 }
 
@@ -271,10 +271,8 @@ footer {
         height: auto;
     }
     .sectioninfotext{
-        display: flex;
-        justify-content: center;
-        flex-wrap:wrap;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 100px 100px 100px 100px;
     }
     .sectioninfotext a{
         font-size: 10px;
@@ -404,17 +402,15 @@ footer {
         width: auto;
     }
     .footerlogo img{
-        width: 80%;
+        width: 35px;
     }
     .sectioninfo div img{
-        width: auto;
+        width: 60px;
         max-width: max-content;
     }
     .sectioninfotext{
-        display: flex;
-        justify-content: center;
-        flex-wrap:wrap;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 80px 80px 80px 80px;     
     }
     #sectionbotonindex button{
         display: grid;
@@ -436,10 +432,16 @@ footer {
         margin-top: 180px;
     }
     .sectionfooter ul{
-        font-size: 10px;
+        font-size: 7px;
     }
     .sectionfooter{
         margin-right: 10%;
+    }
+    .tarjetas-footer{
+        column-gap: 5px;
+    }
+    .tarjetas-footer img{
+        width: 10px;
     }
 }
 
