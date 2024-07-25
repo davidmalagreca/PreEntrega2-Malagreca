@@ -17,7 +17,7 @@ header {
     z-index: 1000;
 }
 main {
-    margin-top: 18%;
+    margin-top: 13%;
     margin-bottom: 5%;
 }
 .center .h1{
@@ -26,10 +26,10 @@ main {
     color: white;
     margin-top: 7px;
 }
-.logobong {
+.logobong img{
     display: flex;
+    width: 100px;
     justify-content: center;
-
 }
 .logobong1 {
     display: flex;
@@ -360,6 +360,9 @@ footer {
     .logobong{
         display: flex;
         justify-content: center;
+    }
+    .logobong img{
+        width: 70px;
     }
     .buscar {
        height: auto;
