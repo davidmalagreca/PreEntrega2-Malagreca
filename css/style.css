@@ -44,6 +44,7 @@ main {
 .centro div{
     display: flex;
     justify-content: center;
+    width: fit-content;
 }
 .container {
     font-weight: bold;
@@ -218,26 +219,22 @@ footer {
     background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif font-size: medium;
     font-weight: bolder;
-    gap: 150px;
-    width: 100%;
-    height: 70%;
+    width: auto;
+    height: auto;
 }
 .footer1 {
     list-style: none;
-    margin: 50px;
     text-decoration: none;
     margin-left: 10%;
     color: white;
 }
 .footer2 {
     list-style: none;
-    margin: 50px;
     margin-left: 10%;
     color: white;
 }
 .footer3 {
     list-style: none;
-    margin: 50px;
     margin-left: 10%;
     color: white;
 }
@@ -250,7 +247,7 @@ footer {
 .tarjetas-footer{
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     gap: 30px;
 }
 .tarjetas-footer img{
@@ -266,7 +263,27 @@ footer {
         justify-content: center;
     }
     .centro{
-        margin-top: 80%;
+        width: 150%;
+        margin-top: 35%;
+    }
+    .centro img{
+        display: flex;
+        justify-content: stretch;
+        margin-right: 370px;
+        width: fit-content;
+    }
+    .sectioninfo img{
+        width: auto;
+        height: auto;
+    }
+    .sectioninfotext{
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap;
+        align-items: center;
+    }
+    .sectioninfotext a{
+        font-size: 10px;
     }
     .center{
         display: flex;
@@ -298,10 +315,6 @@ footer {
         display: flex;
         justify-content: center;
     }
-    .sectionfooter {
-        justify-content: start;
-        flex-direction: column;
-    }
     .grilla{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -309,45 +322,24 @@ footer {
         max-width: max-content;
         margin-top: 180px;
     }
-    .sectionfooter ul li a{
-        text-decoration: none;
-        color: white;
-    }
     footer{
         justify-content: stretch;
+        width: 100%;
     }
     .footerimg{
         display: flex;
         justify-content: center;
     }
-    .sectionfooter {
+    .footerimg{
         display: flex;
-        justify-content: center;
-        background-color: black;
-        font-family: Georgia, 'Times New Roman', Times, serif font-size: medium;
-        font-weight: bolder;
-        gap: 5px;
-        width: auto;
-        height: auto;
-    }
-    .footer1 {
-        list-style: none;
-        margin: 50px;
+        justify-content: start;
+    }   
+    .sectionfooter ul li a{
         text-decoration: none;
-        margin-left: 10%;
         color: white;
     }
-    .footer2 {
-        list-style: none;
-        margin: 50px;
-        margin-left: 10%;
-        color: white;
-    }
-    .footer3 {
-        list-style: none;
-        margin: 50px;
-        margin-left: 10%;
-        color: white;
+    .sectionfooter{
+        margin-right: 10%;
     }
     .footerimg {
         display: flex;
@@ -382,7 +374,15 @@ footer {
        height: auto;
        width: 100px;
     }
-
+    .centro{
+        width: 150%;
+        margin-top: 55%;
+    }
+    .centro img{
+        display: flex;
+        justify-content: stretch;
+        margin-right: 250px;
+    }
     .container {
         display: flex;
         justify-content: start;
@@ -411,25 +411,19 @@ footer {
     .footerimg{
         display: flex;
         justify-content: start;
+        width: auto;
     }
-    .sectionfooter{
-        display: grid ;
-        grid-template-columns: auto auto auto;
-    }
-    .sectionfooter ul li{
-        font-size: 10px;
+    .footerlogo img{
+        width: 80%;
     }
     .sectioninfo div img{
         width: auto;
         max-width: max-content;
     }
-    .sectioninfo > * {
-        width: 5px;
-        text-align: center;
-    }
     .sectioninfotext{
-        display: grid;
-        grid-template-columns: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap;
         align-items: center;
     }
     #sectionbotonindex button{
@@ -451,4 +445,11 @@ footer {
         max-width: max-content;
         margin-top: 180px;
     }
+    .sectionfooter ul{
+        font-size: 10px;
+    }
+    .sectionfooter{
+        margin-right: 10%;
+    }
 }
+
