@@ -20,6 +20,8 @@ main {
     margin-top: 13%;
     margin-bottom: 5%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
 .center .h1{
     text-align: center;
     font-size: 13px;
@@ -42,6 +44,7 @@ main {
     background-color: lightgray;
 }
 .navbar-brand{
+    font-family: "Oswald", sans-serif;
     font-weight: bolder;
 }
 .centro div{
@@ -94,6 +97,7 @@ main {
     border-radius: 20px;
     width: 100%;
     height: 100%;
+    cursor: pointer;
 }
 .prendas img:hover{
     transform: scale(1.1);
