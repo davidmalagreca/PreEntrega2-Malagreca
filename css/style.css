@@ -41,6 +41,9 @@ main {
     justify-content: center;
     background-color: lightgray;
 }
+.navbar-brand{
+    font-weight: bolder;
+}
 .centro div{
     display: flex;
     justify-content: center;
@@ -202,7 +205,6 @@ main {
     font-size: 50px;
     margin-top: -200px;
 }
-
 footer {
     background-color: black;
 }
@@ -279,6 +281,9 @@ footer {
     .logobong{
         display: flex;
         justify-content: center;
+    }
+    #sectionbotonindex{
+        column-gap: 30px;
     }
     .buscar {
        height: auto;
