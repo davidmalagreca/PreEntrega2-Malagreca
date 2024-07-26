@@ -156,6 +156,9 @@ main {
     color: black;
     font-weight: bolder;
 }
+.devoluciones{
+    margin-top: 200px;
+}
 .devoluciones p {
     font-weight: bolder;
 }
@@ -187,6 +190,7 @@ main {
     border-radius: 23px;
     border: none;
 }
+
 .img-somos {
     display: flex;
     justify-content: center;
@@ -196,15 +200,9 @@ main {
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
+    margin-top: -200px;
 }
-.texto-somos {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: x-large;
-}
+
 footer {
     background-color: black;
 }
@@ -304,12 +302,16 @@ footer {
         display: flex;
         justify-content: center;
     }
+    
     .grilla{
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 10px;
         max-width: max-content;
-        margin-top: 180px;
+        margin-top: 50px;
+    }
+    .grilla .card{
+        border-color: rgba(255, 255, 255, 0);
     }
     footer{
         justify-content: stretch;
@@ -339,6 +341,11 @@ footer {
         padding: 10px;
         padding-top: 50px;
     }
+    .quienessomos p{
+        font-size: 20px;
+        margin-top: -100px;
+    }
+    
 }
 
 
@@ -458,6 +465,10 @@ footer {
     }
     .tarjetas-footer img{
         width: 15px;
+    }
+    .quienessomos p{
+        font-size: 20px;
+        margin-top: -20px;
     }
 }
 
