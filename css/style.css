@@ -95,6 +95,10 @@ main {
     width: 100%;
     height: 100%;
 }
+.prendas img:hover{
+    transform: scale(1.1);
+    transition:0.3s;
+}
 .grilla {
     display: grid;
     grid-template-columns: 300px 300px 300px;
@@ -314,9 +318,10 @@ footer {
     .grilla{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin: 10px;
+        margin: 20px;
         max-width: max-content;
         margin-top: 50px;
+        gap: 20px;
     }
     footer{
         justify-content: stretch;
@@ -454,6 +459,16 @@ footer {
         margin: 10px;
         max-width: max-content;
         margin-top: 50px;
+    }
+    .articulo{
+        font-size: 15px;
+        width: 100%;
+    }
+    .prenda-info ul{
+        display: flex;
+        text-align: start;
+        margin-left: -20px;
+        font-size: 12px;
     }
     .boxtext{
         font-size: 20px;
