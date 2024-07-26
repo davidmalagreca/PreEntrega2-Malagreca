@@ -91,8 +91,6 @@ main {
     border-radius: 20px;
     width: 100%;
     height: 100%;
-    transition: 0.5s;
-    object-fit: cover;
 }
 .grilla {
     display: grid;
@@ -103,19 +101,19 @@ main {
 .card {
     width: 100%;
     height: 100%;
-    background-color: white;
 }
 .boxtext {
     font-size: 30px;
     padding: .3125rem;
     margin: 5px;
     font-weight: bolder;
+    width: max-content;
+    margin-top: 200px;
 }
 .prendas {
     width: auto;
     height: auto;
     display: flex;
-    object-fit: cover;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -324,7 +322,10 @@ footer {
     .footerimg{
         display: flex;
         justify-content: start;
-    }   
+    } 
+    .sectionfooter ul{
+        width: auto;
+    }  
     .sectionfooter ul li a{
         text-decoration: none;
         color: white;
@@ -408,12 +409,14 @@ footer {
         width: 35px;
     }
     .sectioninfo div img{
-        width: 50px;
-        max-width: max-content;
+        width: 40px;
+        max-width: auto;
     }
     .sectioninfotext{
         display: grid;
-        grid-template-columns: 80px 80px 80px 80px;     
+        grid-template-columns: 80px 80px 80px 80px;
+        min-width: 30px;
+        max-width: 80px;
     }
     .sectioninfotext a{
         font-size: 8px;
@@ -438,7 +441,10 @@ footer {
         grid-template-columns: 1fr 1fr;
         margin: 10px;
         max-width: max-content;
-        margin-top: 180px;
+        margin-top: 50px;
+    }
+    .boxtext{
+        font-size: 20px;
     }
     .sectionfooter ul{
         font-size: 7px;
