@@ -16,6 +16,10 @@ header {
     left: 0;
     z-index: 1000;
 }
+footer{
+    width: 100%;
+    background-color: black;
+}
 main {
     margin-top: 13%;
     margin-bottom: 5%;
@@ -99,7 +103,7 @@ main {
 .prenda-img {
     border-radius: 20px;
     width: 100%;
-    height: 100%;
+    height: auto;
     cursor: pointer;
 }
 .prendas img:hover{
@@ -219,9 +223,6 @@ main {
     font-size: 50px;
     margin-top: -200px;
 }
-footer {
-    background-color: black;
-}
 .sectionfooter ul li a{
     text-decoration: none;
     color: white;
@@ -264,8 +265,7 @@ footer {
 .tarjetas-footer img{
     width: 30px;
     height: auto;
-}
-
+} 
 @media screen and (max-width: 768px) {
     *{
         margin: 0;
@@ -321,11 +321,6 @@ footer {
         justify-content: center;
         overflow: hidden;
     }
-    .footerimg{
-        display: flex;
-        justify-content: center;
-    }
-    
     .grilla{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -337,10 +332,6 @@ footer {
     footer{
         justify-content: stretch;
         width: 100%;
-    }
-    .footerimg{
-        display: flex;
-        justify-content: center;
     }
     .footerimg{
         display: flex;
