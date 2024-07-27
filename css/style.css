@@ -47,6 +47,9 @@ main {
     font-family: "Oswald", sans-serif;
     font-weight: bolder;
 }
+.nav-item{
+    justify-content: space-around;
+}
 .centro div{
     display: flex;
     justify-content: center;
@@ -273,7 +276,11 @@ footer {
     .centro{
         margin-top: 35%;
     }
-   
+    .nav-item {
+        display: flex;
+        gap: 7px;
+        flex-direction: column;
+    }
     .sectioninfo img{
         width: auto;
         height: auto;
