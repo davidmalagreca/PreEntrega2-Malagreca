@@ -244,6 +244,7 @@ main {
     padding: 10px;
     padding-top: 50px;
 }
+
 .tarjetas-footer{
     display: flex;
     justify-content:center;
@@ -254,6 +255,7 @@ main {
     width: 30px;
     height: auto;
 } 
+
 @media screen and (max-width: 768px) {
     *{
         margin: 0;
