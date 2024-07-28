@@ -160,21 +160,17 @@ main {
     flex-direction: column;
     gap: 10px;
 }
-.sectioninfo {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
 .sectioninfotext {
-    width: auto;
     display: grid;
-    grid-template-columns: 150px 150px 150px 150px;
-    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
 }
 .sectioninfotext a {
     text-decoration: none;
-    text-align:center;
-    color: black;
+    color: rgb(56, 52, 52);
     font-weight: bolder;
 }
 .devoluciones{
@@ -227,8 +223,12 @@ main {
     text-decoration: none;
     color: white;
 }
+.sectionfooter ul{
+    list-style: none;
+}
 .sectionfooter {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
     justify-content: center;
     background-color: black;
     font-family: Georgia, 'Times New Roman', Times, serif font-size: medium;
@@ -236,18 +236,6 @@ main {
     width: auto;
     height: auto;
     gap: 100px;
-}
-.footer1 {
-    list-style: none;
-    text-decoration: none;
-    color: white;
-}
-.footer2 {
-    list-style: none;
-    color: white;
-}
-.footer3 {
-    list-style: none;
     color: white;
 }
 .footerimg {
@@ -304,8 +292,8 @@ main {
         column-gap: 30px;
     }
     .buscar {
-       height: auto;
-       width: 100px;
+        height: auto;
+        width: 100px;
     }
     .container {
         display: flex;
@@ -361,7 +349,7 @@ main {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 510px) {
     *{
         margin: 0;
         padding: 0;
@@ -385,14 +373,13 @@ main {
         width: 70px;
     }
     .buscar {
-       height: auto;
-       width: 100px;
+        height: auto;
+        width: 100px;
     }
     .centro{
         width: auto;
         margin-top: 55%;
     }
- 
     .container {
         display: flex;
         justify-content: start;
@@ -433,9 +420,10 @@ main {
     }
     .sectioninfotext{
         display: grid;
-        grid-template-columns: 80px 80px 80px 80px;
-        min-width: 30px;
-        max-width: 80px;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-around;
+        text-align: center;
+        width: 100%;
     }
     .sectioninfotext a{
         font-size: 8px;
