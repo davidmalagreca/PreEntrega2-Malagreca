@@ -102,7 +102,7 @@ main {
 }
 .prenda-img {
     border-radius: 20px;
-    width: 100%;
+    width: max-content;
     height: auto;
     cursor: pointer;
 }
@@ -416,22 +416,23 @@ main {
     .footerlogo img{
         width: 35px;
     }
-    .sectioninfo div img{
-        width: 40px;
-        max-width: auto;
+    .sectioninfotext  img{
+        max-width: 150px;
+        justify-content: center;
     }
     .sectioninfotext{
         display: grid;
         grid-template-columns: auto auto auto auto;
-        justify-content: space-around;
-        text-align: center;
-        width: 100%;
+    }
+    .img-info img{
+        width: 50px;
+        max-width: 50px;
+        min-width: 10px;
     }
     .sectioninfotext a{
         font-size: 8px;
-        margin-left: -30px;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 30px;
     }
     #sectionbotonindex button{
         display: grid;
