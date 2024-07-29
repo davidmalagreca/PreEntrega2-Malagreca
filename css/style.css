@@ -235,7 +235,7 @@ main {
     font-weight: bolder;
     width: auto;
     height: auto;
-    gap: 100px;
+    gap: auto;
     color: white;
 }
 .footerimg {
@@ -328,7 +328,7 @@ main {
         justify-content: start;
     } 
     .sectionfooter ul{
-        width: auto;
+        width: max-content;
     }  
     .sectionfooter ul li a{
         text-decoration: none;
@@ -470,7 +470,7 @@ main {
     }
     .sectionfooter{
         margin-right: 10%;
-        gap: 50px;
+        gap: auto;
     }
     .tarjetas-footer{
         column-gap: 5px;
